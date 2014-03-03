@@ -3,9 +3,11 @@
     "version": "1.2.3",
     "dependencies": {
         "montage": "git+http://github.com/montagejs/montage.git#master",
-        "matte": "git+http://github.com/montagejs/matte.git#master",
+        "matte": "",
         "native": "~0.1.2"
     },
-    "bundle": [ "ui/main.reel" ],
+    "bundle": [
+        "ui/main.reel"
+    ],
     "shard": 4
 }
